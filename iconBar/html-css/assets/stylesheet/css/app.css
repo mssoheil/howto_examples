@@ -1,0 +1,46 @@
+/*$base-color:   #252525
+
+$second-color: #f22752
+$third-color:  #9a3765*/
+/**/
+/* PLUGINS */
+/* BASE STYLES */
+/* base style */
+ul {
+  width: 90px;
+  background-color: #555;
+  padding: 0; }
+
+li {
+  height: 100%;
+  display: block;
+  width: 100%;
+  background: #555;
+  color: #fff;
+  text-align: center;
+  list-style: none; }
+
+/* LAYOUTS */
+.horizontal {
+  width: 50%; }
+  .horizontal li {
+    display: inline-block;
+    float: left;
+    width: 20%; }
+
+/* MODULES */
+.fa {
+  text-align: center;
+  font-size: 36px;
+  line-height: 45px;
+  display: block;
+  padding: 16px;
+  cursor: pointer; }
+  .fa:not(.active):hover {
+    background: #000;
+    transition: background 1.5s; }
+
+.fa-home {
+  background: #4CAF50; }
+
+/*# sourceMappingURL=app.css.map */
