@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 how to examples in varius ways...
+=======
+how to examples in varius ways.
+>>>>>>> 637b09cab1d48a181614d7b96a02ab86c944344e
