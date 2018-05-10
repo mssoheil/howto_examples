@@ -23,7 +23,8 @@ $third-color:  #9a3765*/
 #menu.close .topBar {
   transform: rotate(-45deg) translateX(-8px) translateY(6px); }
 #menu.close .middleBar {
-  opacity: 0.3; }
+  opacity: 0; }
+  opacity: 0; }
 #menu.close .bottomBar {
   transform: rotate(45deg) translateX(-9px) translateY(-6px); }
 
