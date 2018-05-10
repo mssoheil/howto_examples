@@ -1,0 +1,13 @@
+/* base style */
+
+button {
+	background: #555;
+	color: #fff;
+	&:hover {
+		color: #fff;
+	}
+} 
+
+.btn-group-lg>.btn {
+	padding: 0;
+}
