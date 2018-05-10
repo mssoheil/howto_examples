@@ -1,0 +1,50 @@
+/*$base-color:   #252525
+
+$second-color: #f22752
+$third-color:  #9a3765*/
+/**/
+/* PLUGINS */
+/* BASE STYLES */
+/* base style */
+body, html {
+  width: 100%; }
+
+/* LAYOUTS */
+/* MODULES */
+input[type="checkbox"] {
+  display: none; }
+
+label {
+  display: block;
+  background: #eee;
+  color: #443;
+  cursor: pointer;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #444; }
+
+#first:checked ~ .firstTxt {
+  max-height: 10em; }
+
+#second:checked ~ .secondTxt {
+  max-height: 10em; }
+
+#third:checked ~ .thirdTxt {
+  max-height: 10em; }
+
+.accordionText {
+  background: #aaa;
+  max-height: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: max-height 1s; }
+
+.accordionText p {
+  margin: 1em; }
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px; }
+
+/*# sourceMappingURL=app.css.map */

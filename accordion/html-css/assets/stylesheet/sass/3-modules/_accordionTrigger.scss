@@ -1,0 +1,26 @@
+
+
+label {
+	display: block;
+	background: #eee;
+	color: #443;
+	cursor: pointer;
+	width: 100%;
+	padding: 20px;
+	border: 1px solid #444;
+}
+
+#first:checked ~ .firstTxt {
+	//display: block;
+	max-height: 10em;
+}
+
+#second:checked ~ .secondTxt {
+	//display: block;
+	max-height: 10em;
+}
+
+#third:checked ~ .thirdTxt {
+	//display: block;
+	max-height: 10em;
+}

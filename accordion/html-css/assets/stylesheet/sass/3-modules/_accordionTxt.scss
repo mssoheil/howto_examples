@@ -1,0 +1,13 @@
+.accordionText {
+	//border: 1px solid #888;
+	background: #aaa;
+	//display: none;
+	max-height: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	transition: max-height 1s;
+}
+
+.accordionText p {
+	margin: 1em;
+}
