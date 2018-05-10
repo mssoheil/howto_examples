@@ -1,0 +1,30 @@
+/*$base-color:   #252525
+
+$second-color: #f22752
+$third-color:  #9a3765*/
+/**/
+/* PLUGINS */
+/* BASE STYLES */
+/* base style */
+/* LAYOUTS */
+/* MODULES */
+#menu {
+  border: 1px solid #aaa;
+  width: 40px;
+  padding: 5px; }
+  #menu .menuBar {
+    width: 40px;
+    height: 5px;
+    background: #000;
+    transition: all 1s; }
+    #menu .menuBar:not(:last-of-type) {
+      margin-bottom: 6px; }
+
+#menu.close .topBar {
+  transform: rotate(-45deg) translateX(-8px) translateY(6px); }
+#menu.close .middleBar {
+  opacity: 0.3; }
+#menu.close .bottomBar {
+  transform: rotate(45deg) translateX(-9px) translateY(-6px); }
+
+/*# sourceMappingURL=app.css.map */
